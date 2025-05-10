@@ -3,11 +3,12 @@
   "displayName": "ClassExtractor",
   "publisher": "DevUtilsByTim",
   "description": "",
+  "icon": "./assets/ClassExtractor_Logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/TimDehler/classExtractor.git"
   },
-  "version": "0.0.1",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.100.0"
   },

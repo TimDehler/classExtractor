@@ -5,7 +5,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   const extractCommand = vscode.commands.registerTextEditorCommand(
     "classextractor.extractClasses",
-    (editor, edit) => {
+    (editor) => {
       const fileType: string = editor.document.languageId;
 
       const isHTML: boolean = fileType === "html";
