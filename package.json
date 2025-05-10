@@ -2,13 +2,13 @@
   "name": "classextractor",
   "displayName": "ClassExtractor",
   "publisher": "DevUtilsByTim",
-  "description": "",
+  "description": "Extract all class names from your HTML, Liquid, or JSX files. Simply select text, run the command, and the extension will copy the extracted class names as CSS selectors to your clipboard, making it easy to style or refactor your code.",
   "icon": "./assets/ClassExtractor_Logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/TimDehler/classExtractor.git"
   },
-  "version": "0.1.1",
+  "version": "1.1.1",
   "engines": {
     "vscode": "^1.100.0"
   },

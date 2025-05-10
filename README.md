@@ -1,6 +1,21 @@
 # ClassExtractor
 
 **ClassExtractor** is a Visual Studio Code extension that helps front-end developers quickly extract unique CSS class names from selected HTML, JSX, or Shopify Liquid code and copy them to the clipboard — ready to use in your stylesheets or utility-first frameworks like Tailwind CSS.
+Here’s an improved and more polished version of your **Usage** section, keeping it clear, professional, and user-friendly:
+
+---
+
+## 🛠️ Usage
+
+To extract CSS class names:
+
+1. **Select** the portion of code containing your HTML, JSX, Liquid, etc.
+2. **Right-click** and choose **"Extract Classes"**,
+   _or_ use the keyboard shortcut:
+   **`Ctrl + Alt + E`** (Windows/Linux)
+   **`Cmd + Option + E`** (Mac)
+
+Once triggered, ClassExtractor will extract, clean, and copy the class names to your clipboard — ready to paste into your CSS or utility framework.
 
 ---
 
@@ -21,6 +36,7 @@
 ## 🧩 Requirements
 
 - To extract classes from `.liquid` files, install the [Shopify Liquid VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Shopify.theme-check-vscode).
+- To extract classes from `.svelte` files, install the [Svelte for VS Code Extension](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
 
 ---
 
@@ -30,45 +46,13 @@ ClassExtractor does not add custom settings at the moment.
 
 ---
 
-## 🐞 Known Issues
-
-- `.liquid` file support only works if the Shopify Liquid extension is installed.
-- Files other than `.html`, `.jsx`, or `.liquid` are not supported and will display an error.
-
----
-
-## 📝 Release Notes
-
-### 1.1.0
-
-- Added support for `.jsx` files.
-- Improved feedback for unsupported file types.
-
-### 1.0.1
-
-- Fixed recognition bug for `.liquid` files when the Shopify extension is missing.
-
-### 1.0.0
-
-- Initial release. Supports HTML, JSX, and Liquid file extraction.
-
----
-
 ## 🔮 Upcoming Changes
 
-- ✅ Support for additional file types:
-
-  - Vue.js (`.vue`)
-  - Angular templates
-  - Svelte components
-
-- 🧠 Smarter regex handling (e.g., dynamic or conditional classes)
 - 🎨 UI enhancements and optional file output (`.css`)
-- 🧩 Extension icon/logo
 
 ---
 
 ## 👤 Author
 
-Developed and maintained by **\[Tim Dehler]**
+Developed and maintained by **\Tim Dehler**
 Open-source and maintained for the dev community ❤️
